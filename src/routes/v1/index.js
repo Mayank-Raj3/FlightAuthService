@@ -16,8 +16,7 @@ router.post(
   UserController.signIn
 );
 
-//   AuthRequestValidators.validateUserAuth,
-// router.get("/isAuthenticated", UserController.isAuthenticated);
+router.get("/isAuthenticated", UserController.isAuthenticated);
 
 // router.get(
 //   "/isAdmin",
